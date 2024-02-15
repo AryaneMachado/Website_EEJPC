@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+ body {
+
+background: #b4f0f2;
+background: linear-gradient(90deg,#b4f0f2 0%, #ffffff 80%);
+background: -webkit-linear-gradient(90deg,#b4f0f2 0%, #ffffff 80%);
+background: -moz-linear-gradient(90deg,#b4f0f2 0%, #ffffff 80%);
+} 
+
+#bodyCabeçalho {
+
+    position:sticky;
+    top:0;
+    
+}
+
+
+
+.custom-blue-header {
+    background-color: #00abb3; /* Tom de azul personalizado */
+    color: #fff; /* Cor do texto */
+    margin: 0;
+}
+
+.headerSuperior {
+    background-color: #000000;
+    padding: 20px 0;
+    text-align: center; 
+    margin:0;
+}
+
+.header-title {
+    text-align: center;
+    background-color: #E5FDFF;
+    padding-left: 1rem;
+    margin: 0;
+    font-size: 2rem; /* Tamanho de texto padrão */
+    color: #000000; 
+    font-weight: bold;
+}
+
+.MenuNavSuperior ul {
+    color:#000000;
+    justify-content: center;
+    
+}
+
+.MenuNavSuperior li{
+    color:#000000;
+    list-style: none;
+    display: inline-block;
+}
+
+.MenuNavSuperior a{
+
+    color:#000000;
+    background-color:#8deef3;
+    display: block;
+    text-decoration: none;
+    padding: 16px;
+    width:100%;
+    margin:0;
+
+}
+
+.MenuNavSuperior{
+
+    color:#000000;
+    background-color:#8deef3;
+    display: flex;
+    gap: 5px;
+    justify-content: space-around;
+    width: 100%;
+    margin:0;
+
+}
+.menuFlex ul {
+    justify-content: center;
+    background-color:#8deef3;
+
+}
+
+.menuFlex li {
+    list-style: none;
+    display: inline-block;
+    background-color:#8deef3;
+
+}
+
+.menuFlex a {
+
+    color:#000000;
+    background-color: #eaeaea;
+    display: block;
+    text-decoration: none;
+    padding: 16px;
+    background-color:#00abb3;
+}
+
+.menuFlex a:hover{
+    background-color:#8deef3;
+    color: rgb(10, 10, 10);
+    /* border-bottom: 6px solid #00abb3; */
+}
+
+.menuFlex {
+
+    color:antiquewhite;
+    background-color: #00abb3;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+}
+
+.text-center h3 {
+
+    scroll-padding-top: 10px;
+    
+}
+
+.col-md-6 p{
+
+    text-align: justify;
+
+}
+
+.text-center h2{
+    color:#00abb3;
+    margin:2px;
+    /*text-shadow: -1px 3px 0px rgba(207, 207, 207, 0.658); -> sombreado na letra*/
+
+}
+
+.col-md-12 {
+
+   
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;  
+
+}
+
+
+.col-md-6 h2{
+    color:#00abb3;
+
+}
+
+.btn-primary{
+    color:#eaeaea;
+    background-color:#027075;
+    justify-content: center;
+    text-align:center;
+    margin-top: 25px;
+
+}
+.btn-primary:hover{
+    background-color:#0d0d0d;
+   
+}
+.MenuNavSuperior a:hover{
+   color:#027075;
+}
+#actions-table {
+    justify-content: center;
+    padding-left: 10px;
+}
+.endereco{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* justify-content: center; */
+    margin-top: 30px;
+    padding-right: 10px;
+    text-align: justify
+}
+
+/*-------------------------*/
+  
+#idSlider {
+
+  height:30%;
+  /* width: fit-content; */
+  padding-right: 0;
+  align-items:center;
+  background-color:  rgb(255, 0, 0, 0);
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-bottom:1%;
+  margin:0 auto;
+  padding-top: 15px;
+}
+
+
+#carouselExampleIndicators {
+  align-content: center;
+}
+main {
+  width: 100%;
+  max-width: 1000px;
+  display: center;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+#carouselExampleIndicators{
+    width: 80%;
+    align-content: center;
+    
+}
+ 
+span {
+  font-size: x-large;
+}
+
+img {
+  /*box-shadow: 0 1px 2px #0003;*/
+  width: 100%;
+}
+
+.swiper {
+  height: 500px;
+}
+
+.swiper-slide {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+*{
+    margin:0%;
+    padding:0%;
+}
+
+@media (max-width: 450px) {
+  .swiper {
+    height: 270px;
+  }
+}
+
+.col-md-6 {
+    margin-top:0%;
+}
+
+#LogoPrincipalEscola {
+    height: 180px;
+    width: 180px;
+}
+
+.contact img{
+
+    display: block;
+    text-decoration: none;
+    padding: 16px;
+    margin-right: 20px;
+}
+
+.fa-solid {
+    color:#3c4048;
+}
+
+.divTitulo {
+    background-color:#E5FDFF;
+}
+
+.footerInfos {
+
+    color:#000000;
+    background-color:#00abb3;
+}
+
+.acitionDescription {
+    background-color: #8deef3;
+}
+
+.contact {
+    margin: 0.5rem;
+    
+}
+
+.informacoes{
+    text-align: center;
+}
+
+#fotoMissao {
+    padding-top: 14px;
+    padding-left: 80px;
+    width: 80%;
+    
+}
+
+#fotoEndereço {
+    padding-left: 50px;
+    width: 70%;
+    padding-left: 40px;
+}
+
+#fotoInfo {
+    padding-top: 14px;
+    padding-left: 80px;
+    width: 80%;
+    
+    
+}
+#fotoInfo:hover{
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+}
+#fotoInfo{
+    transition: all 0.10s;
+}
+
+#fotoInfo2 {
+   
+    padding-left: 50px;
+    width: 70%;
+    padding-left: 40px;
+}
+
+
+#fotoInfo2:hover{
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+}
+#fotoInfo2{
+    transition: all 0.10s;
+}
+
+
+.infomaçoesEndereço {
+justify-content: center;
+}
+
+#fotoNossaInstituicao {
+
+    padding-top: 14px;
+    padding-left: 80px;
+    width: 85%;
+    
+}
+
+#fotoNossaInstituicao {
+
+    transition: all 0.10s;
+    /* cursor: pointer; */
+}
+
+
+#fotoNossaInstituicao:hover {
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+
+}
+
+#fotoMissao {
+    transition: all 0.10s;
+   
+}
+
+
+#fotoMissao:hover {
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+
+}
+
+#fotoMissao {
+    padding-top:14px ;
+}
+
+
+#sobreInstituicao {
+    padding-top: 5px;
+}
+
+#txtEndereço {
+
+    color:#000000;
+    padding: 20px 0;
+    padding-top: 5px;
+    text-align: center; 
+    
+}
+
+
+
+#titleInformacoes{
+
+    margin-top: 30px;
+    font-size: 2rem;
+    justify-content: left;
+
+}
+
+#conteudoInformacoes {
+
+    margin-top: 30px;
+    padding-right: 10px;
+    text-align: justify;
+}
+
+#btnSaiba {
+    margin-top: 10px;
+    text-align:center;
+}
+
+
+.maps { 
+    justify-content: center;
+    display: flex;    
+    }
+
+
+
+
+/* Media query para telas menores */
+@media screen and (max-width: 768px) {
+    .header-title {
+        
+        font-size: 1.5rem; /* Tamanho de texto menor para telas menores */
+    }
+}
+
+
+
+    /*----------------------------------*/

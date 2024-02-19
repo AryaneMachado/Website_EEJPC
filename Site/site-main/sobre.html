@@ -7,6 +7,7 @@
     <script src="https://apis.google.com/js/api.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="shortcut icon" href="./assets/Imagens/logo_EEJPC_Positiva.ico" type="image/x-icon">
 
     <link
     rel="stylesheet"
@@ -35,11 +36,26 @@
 
         <body id="bodyCabeçalho">
 
-            <div class="divNav1"> <!--Primeira Nav-->
+    <!--Começa plugin libras-->
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+  
+    
+    <nav> <!-- Barra de navegação Bootstrap -->
 
+        <body id="bodyCabeçalho">
+            <div class="divNav1"> 
                     <ul class="MenuNavSuperior">
                         <li>
-                            <a href="https://api.whatsapp.com/send?phone=553532821107" target="_blank" title="Clique e fale conosco pelo WhatsApp"><i class="fa-solid fa-phone"></i> (35) 3282-1107</a>
+                            <a href="https://api.whatsapp.com/send?phone=553532821107" target="_blank" title="Clique e fale conosco pelo WhatsApp"><i class="fa-solid fa-phone"></i><wbr> (35) 3282-1107</a>
                         </li>
                         <li>
                             <a href="#" title="De segunda-feira à sexta-feira | 06:00 às 12:00 - 16:45 às 22:35"><i  class="fa-regular fa-clock" ></i> Funcionamento</a>
@@ -51,14 +67,11 @@
             </div>
         
             <header>
-
               <div class="col-md-12 divTitulo" >
-
-                <a href="../Modelosite-main/index.html">
+                <a href=" index.html">
                 <img id="LogoPrincipalEscola" src="assets/Imagens/logo_EEJPC_Positiva.png" alt="Logo" class="img-fluid">
               </a>
                 <h1 id="headerName" class="header-title">ESCOLA ESTADUAL JOÃO DE PAULA CAPRONI</h1>    
-             
               </div>
             
               <div>
@@ -66,66 +79,136 @@
                         <li>
                             <a href="index.html">Home</a>
                         </li>
-            
                         <li>
                             <a href="sobre.html">Sobre nós</a>
                         </li>
-            
                         <li>
                             <a href="galeria.html">Galeria</a>
-                        </li>
-            
+                        </li>        
                         <li>
                             <a href="informacoes.html">Informações</a>
                         </li>
                     </ul>
-
                 </div>
-
             </header>  
+
     </nav> <!--Fechando nav-->
+    
+    <div class="container mt-5"> 
 
-    <div class="container">
+        <section class="about mt-5"> <!--Começa seção Estrutura-->
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 id="info">Nossa Estrutura</h2>
+                      <p>Atuamos em um prédio próprio que vem sendo aprimorado ao longo dos anos para melhor acolher toda a comunidade estudantil, 
+                        apresentando atualmente uma construção de quatro pavimentos. Este edifício contém departamentos e
+                        espaços diversos, tais como Diretoria, Secretaria, Sala de Supervisão, Sala de Professores, Sala 
+                        de Reuniões, Salas de Aula, Sala de Jogos Pedagógicos, Laboratório de Informática, Laboratório de 
+                        Ciências da Natureza, Laboratório de Ciências Humanas, Biblioteca, Cozinha, Refeitório, Almoxarifado e 
+                        Sanitários. Além disso, nossa estrutura também conta com uma área externa ampla, que inclui uma Quadra
+                         Poliesportiva Coberta, Pátio e Jardim.</p>
+                </div>
+                <div class="col-md-6">
+                <img id="fotoEstrutura" src="./assets/Imagens/estrutura_edit.png" alt="Imagem sobre o projeto" class="img-fluid">
+                </div>
+                </div>
+        </section> <!--Fim seção Estrutura-->
 
-        <h1 class="informacoes" id="titleInformacoes">Nossa História<br></h1>
+        <section class="about mt-5"> <!--Começa seção Ensino-->
+          <div class="row">
+            <div class="col-md-6">
+              <img id="fotoEnsino" src="./assets/Imagens/ensino_edit.png" alt="Imagem sobre o projeto" class="img-fluid">
+            </div>
 
-        <p id="conteudoInformacoes">A Escola Estadual João de Paula Caproni tem sua origem em uma pequena comunidade agrícola nos arredores da cidade. Fundada em meados do século XX, a escola começou como uma modesta instituição localizada em um antigo prédio de madeira, inicialmente dedicada a atender às necessidades educacionais dos filhos dos agricultores da região.
+            <div class="col-md-6">
+                <h2 id="info">Ensino e Parcerias</h2>
+                  <p>Nossa instituição oferece a mais de 100 alunos devidamente matriculados 
+                  o Ensino Médio na modalidade Regular, coordenado pela Superintendência Regional de 
+                  Ensino da Circunscrição de Varginha. Além do Ensino Regular, a Escola ao longo dos 
+                  anos tem fortalecido parcerias com entidades externas com o intuito de ampliar as 
+                  oportunidades de conhecimento. Exemplo dessas parcerias é com o Instituto Federal do
+                  Sul de Minas e com a Prefeitura Municipal de Carvalhópolis, que, com o apoio da nossa
+                  instituição, tem oferecido cursos profissionalizantes a toda a comunidade do município. 
+                  Além dessas, também podemos citar a parceria com a Câmara Municipal de Carvalhópolis, que, 
+                  por meio do Projeto Parlamento Jovem, tem contribuído com o desenvolvimento do conhecimento 
+                  político e social dos estudantes da nossa instituição, por meio de reuniões, debates e 
+                  viagens técnicas.
+                  </p>
+            </div>
+          </div>
+        </section> <!--Fim seção Ensino-->
 
-            João de Paula Caproni, um influente líder comunitário e defensor da educação, foi o principal impulsionador da criação da escola. Sua visão era proporcionar acesso à educação de qualidade para todas as crianças, independentemente de sua origem social ou econômica. Com o apoio da comunidade, Caproni liderou esforços para arrecadar fundos e recursos necessários para a construção do primeiro prédio da escola.
-            
-            Com o passar dos anos, a escola expandiu-se e modernizou-se, adaptando-se às mudanças na sociedade e nas necessidades educacionais. Novos prédios foram construídos, equipamentos foram atualizados e o currículo foi ampliado para oferecer uma gama mais diversificada de disciplinas e atividades extracurriculares.
-            
-            A escola João de Paula Caproni sempre foi reconhecida por sua dedicação ao ensino de qualidade e por cultivar um ambiente acolhedor para os alunos. Ao longo das décadas, tornou-se um pilar na comunidade, formando gerações de estudantes comprometidos e bem preparados para os desafios do futuro.
-            
-            Atualmente, a escola continua a honrar os ideais de seu fundador, promovendo valores de igualdade, dedicação ao aprendizado e compromisso com o desenvolvimento integral dos alunos. A história da Escola Estadual João de Paula Caproni é um testemunho do poder transformador da educação e do impacto positivo que uma instituição pode ter na vida de uma comunidade.<br></p>
+        <section class="about mt-5"> <!--Começa seção Comunidade-->
+          <div class="row">
+            <div class="col-md-6">
+                <h2 id="info">Comunidade Estudantil</h2>
+                  <p>Nossa Comunidade Estudantil é composta por alunos, principalmente, com idades entre 15 e 19 anos, 
+                    residentes na zona urbana e rural do município. Há muitos anos, percebemos que grande parte dos pais
+                    e responsáveis por esses alunos afirmam estar satisfeitos com toda atuação da Escola, principalmente 
+                    nos quesitos de qualidade de ensino, nível de socialização e espaço físico. Para a EEJPC manter um 
+                    relacionamento sólido e agradável com as famílias e responsáveis pelos nossos alunos, é um dever essencial. 
+                    Nesse sentido, além da educação formal de todas as disciplinas, defendemos os valores sócio-éticos-morais,
+                    tais como o respeito, diversidade, solidariedade e fraternidade humana.</p>
+            </div>
 
-       
+            <div class="col-md-6">
+            <img id="fotoComunidade" src="./assets/Imagens/comunidadeEstudantil_edit.png" alt="Imagem sobre o projeto" class="img-fluid">
+            </div>
+            </div>
+        </section> <!--Fim seção Comunidade-->
 
+        <section class="about mt-5">  <!--Começa seção Servidores-->
+                <div class="row">
+                  <div class="col-md-6">
+                    <img id="fotoServidores" src="./assets/Imagens/servidores_edit.png" alt="Imagem sobre o projeto" class="img-fluid">
+                  </div>
+      
+                  <div class="col-md-6">
+                      <h2 id="info">Servidores</h2>
+                        <p>Atualmente, a EEJPC conta com um quadro de 16 docentes, os quais possuem
+                          formação condizente com as atividades desenvolvidas nas diversas áreas do conhecimento.
+                          Além dos docentes, a instituição também conta com vários outros servidores que integram os 
+                          diversos departamentos internos, como Diretoria, Supervisão, Secretaria e Serviços Gerais. 
+                          Em resumo, podemos definir que toda equipe de trabalho da Escola é dedicada, responsável, 
+                          dinâmica e comprometida com as metas e a qualidade da educação.</p>
+                  </div>
+                </div>
+        </section> <!--Fim seção Servidores-->
 
+    </div> 
+    <!-- </div> -->
 
-        
-    </div>
-    <footer  class="text-white text-center mt-5 py-3 footerInfos">
+    <section class="impact mt-5"> <!--Começa label visita-->
+      <h2 id="txtWhatsApp">Para mais informações, fale conosco!</h2>
+    </section>
+
+    <a href="informacoes.html"> <!--Começa botão saiba-->
+      <div id="btnSaiba">
+        <button class="btn btn-primary" id="donateBtn">
+          <a href="https://api.whatsapp.com/send?phone=553532821107" target="_blank" title="Clique e fale conosco pelo WhatsApp" style="color: inherit; text-decoration: none;">WhatsApp EEJPC</a>
+      </button>
+  </a> <!--Fim botão saiba-->
+
+    <footer  class="text-white text-center mt-5 py-3 footerInfos"> <!--Começa rodapé-->
         <p>&copy; 2023 - Escola Estadual João de Paula Caproni</p>
        
         <div id="baixo" class="container footerContato">
-          
           <div class="row">
             
               <div id="contatos" class="col-md-12">
                   <a href="https://www.instagram.com/eejpc2023?igshid=MzRlODBiNWFlZA%3D%3D" target="_blank" class="contact"><i class="fa-brands fa-instagram fa-2xl" style="color: #000000;"></i></a>
                   <a href="mailto:escola.171999@educacao.mg.gov.br" class="contact"><i class="fa-regular fa-envelope fa-2xl" style="color: #000000;"></i></a>
                   <a href="https://api.whatsapp.com/send?phone=553532821107" target="_blank" title="Clique e fale conosco pelo WhatsApp" class="contact"><i class="fa-brands fa-whatsapp fa-2xl" style="color: #000000;"></i></a>
-              </div>
-              
+              </div>   
           </div>
       </div>
-    </footer>
+    </footer> <!--Fim rodapé-->
 
     <!-- Inclua o Bootstrap JavaScript e o jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
+
 </body>
 </html>

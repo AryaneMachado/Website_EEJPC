@@ -83,14 +83,14 @@ background: -moz-linear-gradient(90deg,#b4f0f2 0%, #ffffff 80%);
 }
 .menuFlex ul {
     justify-content: center;
-    background-color:#8deef3;
+    background-color:#00abb3;
 
 }
 
 .menuFlex li {
     list-style: none;
     display: inline-block;
-    background-color:#8deef3;
+    background-color:#00abb3;
 
 }
 
@@ -105,6 +105,12 @@ background: -moz-linear-gradient(90deg,#b4f0f2 0%, #ffffff 80%);
 }
 
 .menuFlex a:hover{
+    background-color:#8deef3;
+    color: rgb(10, 10, 10);
+    /* border-bottom: 6px solid #00abb3; */
+}
+
+.menuFlex li:hover{
     background-color:#8deef3;
     color: rgb(10, 10, 10);
     /* border-bottom: 6px solid #00abb3; */
@@ -162,10 +168,12 @@ background: -moz-linear-gradient(90deg,#b4f0f2 0%, #ffffff 80%);
     justify-content: center;
     text-align:center;
     margin-top: 25px;
+    border: 1px solid #027075;
 
 }
 .btn-primary:hover{
     background-color:#0d0d0d;
+    border: 1px solid black;
    
 }
 .MenuNavSuperior a:hover{
@@ -280,6 +288,8 @@ img {
 
     color:#000000;
     background-color:#00abb3;
+    margin-top: 50px;
+    padding-top: 50px;
 }
 
 .acitionDescription {
@@ -296,9 +306,29 @@ img {
 }
 
 #fotoMissao {
-    padding-top: 14px;
-    padding-left: 80px;
-    width: 80%;
+    margin-top: 0px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    width: 90%;
+    
+}
+
+#fotoEnsino {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    width: 93%;
+    
+}
+
+#fotoServidores {
+    margin-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    width: 93%;
     
 }
 
@@ -348,11 +378,70 @@ justify-content: center;
 
     padding-top: 14px;
     padding-left: 80px;
+    width: 95%;
+    
+}
+
+#fotoEstrutura {
+
+    padding-top: 0px;
+    padding-left: 80px;
+    width: 95%;
+    
+}
+
+#fotoFuncionamento {
+
+    padding-top: 0px;
+    padding-left: 80px;
+    width: 90%;
+    
+}
+
+#fotoMatricula {
+
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 100px;
+    padding-left: 80px;
+    width: 90%;
+    
+}
+
+#fotoRedesSociais {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
     width: 85%;
     
 }
 
-#fotoNossaInstituicao {
+#fotoProcesso {
+    margin-top: 0px;
+    margin-bottom: 60px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    width: 85%;
+    
+}
+
+
+#fotoComunidade {
+
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+    padding-left: 80px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#fotoNossaInstituicao, #fotoEstrutura, #fotoComunidade, #fotoServidores, #fotoEnsino,
+#fotoFuncionamento, #fotoRedesSocias, #fotoMatricula, #fotoProcesso {
 
     transition: all 0.10s;
     /* cursor: pointer; */
@@ -360,6 +449,54 @@ justify-content: center;
 
 
 #fotoNossaInstituicao:hover {
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+
+}
+
+#fotoEstrutura:hover {
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+
+}
+
+#fotoEnsino:hover {
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+
+}
+
+#fotoComunidade:hover {
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+
+}
+
+#fotoServidores:hover {
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+
+}
+
+#fotoFuncionamento:hover {
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+
+}
+
+#fotoRedesSociais:hover {
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+
+}
+
+#fotoMatricula:hover {
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+
+}
+
+#fotoProcesso:hover {
     -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
     filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
 
@@ -382,7 +519,7 @@ justify-content: center;
 }
 
 
-#sobreInstituicao {
+#info {
     padding-top: 5px;
 }
 
@@ -395,7 +532,16 @@ justify-content: center;
     
 }
 
+#txtWhatsApp {
 
+    color:#000000;
+    padding: 20px 0;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-align: center; 
+    
+}
 
 #titleInformacoes{
 
@@ -408,23 +554,20 @@ justify-content: center;
 #conteudoInformacoes {
 
     margin-top: 30px;
-    padding-right: 10px;
+    padding-right: 0px;
     text-align: justify;
 }
 
 #btnSaiba {
+    
     margin-top: 10px;
     text-align:center;
 }
-
 
 .maps { 
     justify-content: center;
     display: flex;    
     }
-
-
-
 
 /* Media query para telas menores */
 @media screen and (max-width: 768px) {

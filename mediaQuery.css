@@ -104,11 +104,12 @@
         margin-top: 0px;
         padding-top: 0px;
     }
-    
-    /* #text-phone, #text-hora, #text-email  {
+
+    .fa-phone, .fa-clock, .fa-envelope {
         display: none;
     }
-     */
+    
+   
     #contatos i {
         width: 5%;
     }
@@ -456,10 +457,10 @@ p {
         padding-top: 0px;
     }
     
-    .fa-phone, .fa-clock {
+    /* .fa-phone, .fa-clock {
         display: none;
     }
-    
+     */
     #contatos i {
         width: 5%;
     }

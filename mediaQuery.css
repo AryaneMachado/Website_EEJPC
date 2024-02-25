@@ -209,6 +209,22 @@
         margin-top: 0px;
         padding-top: 0px;
     }
+
+    #fotoEstrutura, #fotoComunidade{
+
+        padding-left: 25px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        width: 90%;
+    }
+    
+    #fotoEnsino, #fotoServidores {
+        padding-left: 25px;
+        width: 97%;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    
     
     .fa-phone, .fa-clock, .fa-envelope1 {
         display: none;
@@ -242,29 +258,32 @@
 }
 
 .divTitulo {
-    height: 120px ;
+    height: 140px ;
 }
 
 .header-title {
     /* background-color: yellow; */
-    width: 250px;
-    font-size: 18px;
+    width: 100%;
+    font-size: 16px;
     padding: 0px 20px 0px 0px;
 }
 
 #LogoPrincipalEscola {
-    width: 100%;
-    height: 110px;
+    width: 200px;
+    height: 100px;
     padding-left: 15px;
+    padding-right: 10px;
 }
 
 .menuFlex {
-    height: 60px;
+    height: 70px;
+    width: 100%;
 }
 
 .menuFlex li{
     align-items: center;
     justify-content: center;
+    height: 70px;
     
 }
 
@@ -273,10 +292,11 @@
     align-items: center;
     justify-content: center;
     justify-content: space-between;
+    height: 70px;
 }
 
 h2, h3{
-    font-size: 18px;
+    font-size: 16px;
 }
 
 h2 {
@@ -316,7 +336,24 @@ p {
     padding-top: 0px;
 }
 
-.fa-phone, .fa-clock{
+#fotoEstrutura, #fotoComunidade{
+
+    padding-left: 25px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    width: 90%;
+}
+
+#fotoEnsino, #fotoServidores {
+    padding-left: 25px;
+    width: 97%;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+
+
+.fa-phone, .fa-clock, .fa-envelope1{
     display: none;
 }
 

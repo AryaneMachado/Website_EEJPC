@@ -105,10 +105,10 @@
         padding-top: 0px;
     }
     
-    .fa-phone, .fa-clock, .fa-envelope1 {
+    /* #text-phone, #text-hora, #text-email  {
         display: none;
     }
-    
+     */
     #contatos i {
         width: 5%;
     }
@@ -210,7 +210,7 @@
         padding-top: 0px;
     }
 
-    #fotoEstrutura, #fotoComunidade{
+    #fotoEstrutura, #fotoComunidade, #fotoMatricula{
 
         padding-left: 25px;
         padding-bottom: 0px;
@@ -218,7 +218,7 @@
         width: 90%;
     }
     
-    #fotoEnsino, #fotoServidores {
+    #fotoEnsino, #fotoServidores, #fotoProcesso {
         padding-left: 25px;
         width: 97%;
         margin-top: 0px;

@@ -226,7 +226,7 @@
     }
     
     
-    .fa-phone, .fa-clock, .fa-envelope1 {
+    .fa-phone, .fa-clock, .fa-envelope {
         display: none;
     }
     
@@ -353,7 +353,7 @@ p {
 
 
 
-.fa-phone, .fa-clock, .fa-envelope1{
+.fa-phone, .fa-clock, .fa-envelope {
     display: none;
 }
 

@@ -105,7 +105,7 @@
         padding-top: 0px;
     }
 
-    .fa-phone, .fa-clock, .fa-envelope {
+    .fa-phone, .fa-clock, .fa-envelope1 {
         display: none;
     }
     
@@ -227,7 +227,7 @@
     }
     
     
-    .fa-phone, .fa-clock, .fa-envelope {
+    .fa-phone, .fa-clock, .fa-envelope1 {
         display: none;
     }
     
@@ -296,7 +296,13 @@
     height: 70px;
 }
 
-h2, h3{
+#titleInformacoes {
+    font-size: 16px;
+    margin-bottom: 0px;
+    
+}
+
+h2, h3 {
     font-size: 16px;
 }
 
@@ -306,7 +312,7 @@ h2 {
     padding-bottom: 5px;
 }
 
-p {
+p, td, th {
     font-size: 13px;
 }
 
@@ -337,7 +343,7 @@ p {
     padding-top: 0px;
 }
 
-#fotoEstrutura, #fotoComunidade{
+#fotoEstrutura, #fotoComunidade, #fotoFuncionamento, #fotoMatricula{
 
     padding-left: 25px;
     padding-bottom: 0px;
@@ -345,16 +351,14 @@ p {
     width: 90%;
 }
 
-#fotoEnsino, #fotoServidores {
+#fotoEnsino, #fotoServidores, #fotoRedesSociais, #fotoProcesso {
     padding-left: 25px;
     width: 97%;
     margin-top: 0px;
     padding-top: 0px;
 }
 
-
-
-.fa-phone, .fa-clock, .fa-envelope {
+.fa-phone, .fa-clock, .fa-envelope1 {
     display: none;
 }
 
@@ -388,7 +392,7 @@ p {
     
     .header-title {
         /* background-color: yellow; */
-        width: 250px;
+        width: 300px;
         font-size: 18px;
         padding: 0px 20px 0px 0px;
     }
@@ -396,16 +400,17 @@ p {
     #LogoPrincipalEscola {
         width: 100%;
         height: 110px;
-        padding-left: 15px;
+        padding-left: 10px;
     }
     
     .menuFlex {
-        height: 60px;
+        height: 70px;
     }
     
     .menuFlex li{
         align-items: center;
         justify-content: center;
+        height: 70px;
         
     }
     
@@ -415,9 +420,16 @@ p {
         justify-content: center;
         justify-content: space-between;
     }
+
+    #titleInformacoes {
+        font-size: 18px;
+        margin-bottom: 0px;
+        
+    }
     
     h2, h3{
         font-size: 18px;
+   
     }
     
     h2 {
@@ -426,7 +438,7 @@ p {
         padding-bottom: 5px;
     }
     
-    p {
+    p, td, th {
         font-size: 14px;
     }
     
@@ -456,11 +468,26 @@ p {
         margin-top: 0px;
         padding-top: 0px;
     }
+
+    #fotoEstrutura, #fotoComunidade, #fotoFuncionamento, #fotoMatricula {
     
-    /* .fa-phone, .fa-clock {
+        padding-left: 15px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        width: 93%;
+    }
+
+    #fotoEnsino, #fotoServidores, #fotoRedesSociais, #fotoProcesso {
+        padding-left: 15px;
+        width: 96%;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    
+    .fa-phone, .fa-clock, .fa-envelope1 {
         display: none;
     }
-     */
+    
     #contatos i {
         width: 5%;
     }

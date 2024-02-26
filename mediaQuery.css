@@ -211,7 +211,7 @@
         padding-top: 0px;
     }
 
-    #fotoEstrutura, #fotoComunidade, #fotoMatricula{
+    #fotoEstrutura, #fotoComunidade, #fotoMatricula {
 
         padding-left: 25px;
         padding-bottom: 0px;
@@ -348,7 +348,9 @@ p, td, th {
     padding-left: 25px;
     padding-bottom: 0px;
     margin-bottom: 0px;
-    width: 90%;
+    width: 95%;
+    margin-top: 25px;
+    padding-top: 10px;
 }
 
 #fotoEnsino, #fotoServidores, #fotoRedesSociais, #fotoProcesso {
@@ -356,6 +358,8 @@ p, td, th {
     width: 97%;
     margin-top: 0px;
     padding-top: 0px;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
 }
 
 .fa-phone, .fa-clock, .fa-envelope1 {

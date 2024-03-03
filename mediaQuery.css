@@ -247,11 +247,11 @@
 }
 /* ----------------------------------- */
 
-@media (min-width: 280px) and (max-width: 380px) { /* #3*/
+@media (min-width: 280px) and (max-width: 379px) { /* #3*/
 
 .divNav1 ul {
     width:100%;
-    height: 80px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -275,7 +275,7 @@
 }
 
 #LogoPrincipalEscola {
-    width: 200px;
+    width: 180px;
     height: 100px;
     padding-left: 15px;
     padding-right: 10px;
@@ -367,8 +367,14 @@ p, td, th {
     padding-bottom: 20px;
 }
 
-.fa-phone, .fa-clock, .fa-envelope1 {
-    display: none;
+/* .fa-phone, .fa-clock, .fa-envelope {
+    
+    width: 150%;
+
+} */
+
+#text-phone, #text-funcionamento, #text-email {
+    display:none;
 }
 
 #contatos i {
@@ -383,37 +389,39 @@ p, td, th {
 
     .divNav1 ul {
         width:100%;
-        height: 80px;
+        height: 60px;
         display: flex;
         align-items: center;
         justify-content: center;
     }
     
     .divNav1 a {
-        font-size: 14px;
+        font-size: 13px;
         align-items: center;
         justify-content: center;
     }
     
     .divTitulo {
-        height: 120px ;
+        height: 140px ;
     }
     
     .header-title {
         /* background-color: yellow; */
-        width: 300px;
-        font-size: 18px;
+        width: 100%;
+        font-size: 16px;
         padding: 0px 20px 0px 0px;
     }
     
     #LogoPrincipalEscola {
-        width: 100%;
-        height: 110px;
-        padding-left: 10px;
+        width: 180px;
+        height: 100px;
+        padding-left: 15px;
+        padding-right: 10px;
     }
     
     .menuFlex {
         height: 70px;
+        width: 100%;
     }
     
     .menuFlex li{
@@ -424,21 +432,21 @@ p, td, th {
     }
     
     .menuFlex a {
-        font-size: 14px;
+        font-size: 13px;
         align-items: center;
         justify-content: center;
         justify-content: space-between;
+        height: 70px;
     }
-
+    
     #titleInformacoes {
-        font-size: 18px;
+        font-size: 16px;
         margin-bottom: 0px;
         
     }
     
-    h2, h3{
-        font-size: 18px;
-   
+    h2, h3 {
+        font-size: 16px;
     }
     
     h2 {
@@ -448,7 +456,7 @@ p, td, th {
     }
     
     p, td, th {
-        font-size: 14px;
+        font-size: 13px;
     }
     
     #text-missao li{
@@ -465,41 +473,52 @@ p, td, th {
     
     #fotoNossaInstituicao {
     
-        padding-left: 50px;
+        padding-left: 25px;
         padding-bottom: 0px;
         margin-bottom: 0px;
         width: 90%;
     }
     
     #fotoMissao {
-        padding-left: 50px;
-        width: 90%;
+        padding-left: 25px;
+        width: 93%;
         margin-top: 0px;
         padding-top: 0px;
     }
-
-    #fotoEstrutura, #fotoComunidade, #fotoFuncionamento, #fotoMatricula {
     
-        padding-left: 15px;
+    #fotoEstrutura, #fotoComunidade, #fotoFuncionamento, #fotoMatricula{
+    
+        padding-left: 25px;
         padding-bottom: 0px;
         margin-bottom: 0px;
-        width: 93%;
-    }
-
-    #fotoEnsino, #fotoServidores, #fotoRedesSociais, #fotoProcesso {
-        padding-left: 15px;
-        width: 96%;
-        margin-top: 0px;
-        padding-top: 0px;
+        width: 95%;
+        margin-top: 25px;
+        padding-top: 10px;
     }
     
-    .fa-phone, .fa-clock, .fa-envelope1 {
-        display: none;
+    #fotoEnsino, #fotoServidores, #fotoRedesSociais, #fotoProcesso {
+        padding-left: 25px;
+        width: 97%;
+        margin-top: 0px;
+        padding-top: 0px;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+    
+    /* .fa-phone, .fa-clock, .fa-envelope {
+        
+        width: 150%;
+    
+    } */
+    
+    #text-phone, #text-funcionamento, #text-email {
+        display:none;
     }
     
     #contatos i {
         width: 5%;
     }
+    
+    }
 
 
-}

@@ -35,7 +35,6 @@
     }
     
     .header-title {
-        /* background-color: yellow; */
         width: 250px;
         font-size: 18px;
         padding: 0px 20px 0px 0px;
@@ -138,7 +137,6 @@
     }
     
     .header-title {
-        /* background-color: yellow; */
         width: 100%;
         font-size: 15px;
         padding: 0px 20px 0px 0px;
@@ -268,7 +266,6 @@
 }
 
 .header-title {
-    /* background-color: yellow; */
     width: 100%;
     font-size: 16px;
     padding: 0px 20px 0px 0px;
@@ -367,12 +364,6 @@ p, td, th {
     padding-bottom: 20px;
 }
 
-/* .fa-phone, .fa-clock, .fa-envelope {
-    
-    width: 150%;
-
-} */
-
 #text-phone, #text-funcionamento, #text-email {
     display:none;
 }
@@ -406,7 +397,6 @@ p, td, th {
     }
     
     .header-title {
-        /* background-color: yellow; */
         width: 100%;
         font-size: 16px;
         padding: 0px 20px 0px 0px;
@@ -505,12 +495,6 @@ p, td, th {
         padding-bottom: 20px;
     }
     
-    /* .fa-phone, .fa-clock, .fa-envelope {
-        
-        width: 150%;
-    
-    } */
-    
     #text-phone, #text-funcionamento, #text-email {
         display:none;
     }
@@ -521,4 +505,130 @@ p, td, th {
     
     }
 
+/* --------------------------------------------- */
 
+@media (min-width: 480px) and (max-width: 579px) { /* #5*/
+
+    .divNav1 ul {
+        width:100%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .divNav1 a {
+        font-size: 16px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .divTitulo {
+        height: 140px ;
+    }
+    
+    .header-title {
+        /* background-color: yellow; */
+        width: 100%;
+        font-size: 20px;
+        padding: 0px 25px 0px 0px;
+    }
+    
+    #LogoPrincipalEscola {
+        width: 190px;
+        height: 120px;
+        padding-left: 20px;
+        padding-right: 0px;
+    }
+    
+    .menuFlex {
+        height: 60px;
+        width: 100%;
+    }
+    
+    .menuFlex li{
+        align-items: center;
+        justify-content: center;
+        height: 60px;
+        
+    }
+    
+    .menuFlex a {
+        font-size: 14px;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+        height: 60px;
+    }
+    
+    #titleInformacoes {
+        font-size: 16px;
+        margin-bottom: 0px;
+        
+    }
+    
+    h2, h3 {
+        font-size: 17px;
+    }
+    
+    h2 {
+        margin-top: 0px;
+        padding-top: 0px;
+        padding-bottom: 5px;
+    }
+    
+    p, td, th {
+        font-size: 14px;
+    }
+    
+    #text-missao li{
+        font-size: 14px;
+    }
+    
+    #textEndereco {
+        font-size: 17px;
+    }
+    
+    #donateBtn {
+        font-size: 14px;
+    }
+    
+    #fotoNossaInstituicao {
+    
+        padding-left: 25px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        width: 90%;
+    }
+    
+    #fotoMissao {
+        padding-left: 25px;
+        width: 93%;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    
+    #fotoEstrutura, #fotoComunidade, #fotoFuncionamento, #fotoMatricula{
+    
+        padding-left: 25px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        width: 95%;
+        margin-top: 25px;
+        padding-top: 10px;
+    }
+    
+    #fotoEnsino, #fotoServidores, #fotoRedesSociais, #fotoProcesso {
+        padding-left: 25px;
+        width: 97%;
+        margin-top: 0px;
+        padding-top: 0px;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+      
+    #contatos i {
+        width: 5%;
+    }
+
+}
